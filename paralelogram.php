@@ -1,6 +1,6 @@
 <?php
-$a = $_GET['ground'];
-$b = $_GET['heigth'];
+$a = $_GET['a'];
+$b = $_GET['b'];
 
-echo "Площа паралелограма: ". $ground * $heigth;
+echo "Площа паралелограма: ". $a * $b;
 ?>
